@@ -40,6 +40,7 @@ var bsDateTimePickerComponent = Ember.Component.extend({
   }),
 
   didReceiveAttrs() {
+    this._super(...arguments);
     this._updateDateTimePicker();
   },
   
